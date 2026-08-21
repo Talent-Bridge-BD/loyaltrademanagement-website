@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/hero.jpg" alt="Loyal Trade Management Ltd. — Empowering Businesses Through People, Technology & Innovation" width="100%">
+  <img src="assets/Hero-image.jpeg" alt="Loyal Trade Management Ltd. — Empowering Businesses Through People, Technology & Innovation" width="100%">
 </p>
 
 ---
