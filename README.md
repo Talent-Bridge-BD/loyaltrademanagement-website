@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Loyal Trade Management Ltd." width="190">
+<img src="assets/logo-transparent.png" alt="Loyal Trade Management Ltd." width="190">
 </p>
 
 <h1 align="center">Loyal Trade Management Ltd.</h1>
