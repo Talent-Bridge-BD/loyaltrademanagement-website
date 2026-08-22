@@ -1,5 +1,5 @@
+```html
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,409 +7,568 @@
 
   <title>Privacy Policy | Loyal Trade Management Ltd.</title>
 
-<meta
-name="description"
-content="Privacy Policy of Loyal Trade Management Ltd."
-
->
-
-  <link rel="stylesheet" href="styles.css">
+  <meta
+    name="description"
+    content="Privacy Policy of Loyal Trade Management Ltd."
+  >
 
   <style>
-    .legal-page {
-      padding: 150px 0 100px;
-      background: var(--light);
-      min-height: 100vh;
+    * {
+      box-sizing: border-box;
     }
 
-    .legal-header {
-      max-width: 850px;
-      margin-bottom: 45px;
+    html {
+      scroll-behavior: smooth;
     }
 
-    .legal-header h1 {
-      color: var(--navy);
-      font-size: clamp(40px, 5vw, 64px);
-      line-height: 1.05;
-      letter-spacing: -0.04em;
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f7f9fc;
+      color: #263238;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      line-height: 1.7;
     }
 
-    .legal-date {
-      margin-top: 18px;
-      color: var(--muted);
-      font-size: 15px;
+    a {
+      color: #0b5cab;
+      text-decoration: none;
     }
 
-    .legal-content {
-      max-width: 850px;
-      padding: 50px;
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      box-shadow: 0 10px 35px rgba(7, 26, 51, 0.05);
+    a:hover {
+      text-decoration: underline;
     }
 
-    .legal-content h2 {
-      margin-top: 38px;
-      margin-bottom: 14px;
-      color: var(--navy);
-      font-size: 24px;
-      line-height: 1.3;
+    .site-header {
+      background: #ffffff;
+      border-bottom: 1px solid #e5e9ef;
     }
 
-    .legal-content h2:first-child {
-      margin-top: 0;
+    .header-inner {
+      width: min(1100px, calc(100% - 40px));
+      margin: 0 auto;
+      min-height: 78px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
     }
 
-    .legal-content p {
-      margin-bottom: 18px;
-      color: var(--muted);
-      font-size: 16px;
-      line-height: 1.75;
-    }
-
-    .legal-content ul {
-      margin: 0 0 20px 22px;
-      color: var(--muted);
-    }
-
-    .legal-content li {
-      margin-bottom: 8px;
-      padding-left: 5px;
-      line-height: 1.65;
-    }
-
-    .legal-contact {
-      margin-top: 10px;
-    }
-
-    .legal-contact strong {
-      color: var(--navy);
-    }
-
-    .legal-footer {
-      margin-top: 40px;
-      padding-top: 25px;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    .legal-back {
+    .brand {
       display: inline-flex;
-      margin-top: 35px;
-      color: var(--blue);
+      align-items: center;
+    }
+
+    .brand img {
+      display: block;
+      width: auto;
+      max-width: 210px;
+      height: 48px;
+      object-fit: contain;
+    }
+
+    .back-link {
       font-size: 14px;
+      font-weight: 600;
+      color: #334155;
+      white-space: nowrap;
+    }
+
+    .legal-page {
+      padding: 70px 20px 90px;
+    }
+
+    .legal-container {
+      width: min(920px, 100%);
+      margin: 0 auto;
+      background: #ffffff;
+      border: 1px solid #e5e9ef;
+      border-radius: 14px;
+      padding: 56px 64px;
+      box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+    }
+
+    .legal-label {
+      margin: 0 0 14px;
+      color: #0b5cab;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      color: #102a43;
+      font-size: clamp(32px, 5vw, 46px);
+      line-height: 1.15;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .effective-date {
+      margin: 0 0 36px;
+      color: #64748b;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .legal-container > p {
+      margin: 0 0 20px;
+      font-size: 16px;
+    }
+
+    .legal-section {
+      margin-top: 38px;
+    }
+
+    .legal-section h2 {
+      margin: 0 0 14px;
+      color: #102a43;
+      font-size: 22px;
+      line-height: 1.35;
       font-weight: 700;
     }
 
-    .legal-back:hover {
-      color: var(--cyan);
+    .legal-section p {
+      margin: 0 0 18px;
+      font-size: 16px;
     }
 
-    @media (max-width: 600px) {
+    .legal-section ul {
+      margin: 0 0 20px;
+      padding-left: 24px;
+    }
+
+    .legal-section li {
+      margin-bottom: 8px;
+      padding-left: 4px;
+      font-size: 16px;
+    }
+
+    .contact-details {
+      margin-top: 18px;
+      padding: 22px 24px;
+      background: #f7f9fc;
+      border-left: 4px solid #0b5cab;
+      border-radius: 6px;
+    }
+
+    .contact-details p {
+      margin: 0 0 6px;
+    }
+
+    .contact-details p:last-child {
+      margin-bottom: 0;
+    }
+
+    .legal-footer {
+      margin-top: 48px;
+      padding-top: 28px;
+      border-top: 1px solid #e5e9ef;
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    .legal-footer p {
+      margin: 0 0 8px;
+    }
+
+    .bottom-navigation {
+      margin-top: 32px;
+    }
+
+    .bottom-navigation a {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    @media (max-width: 700px) {
+      .header-inner {
+        width: min(100% - 28px, 1100px);
+        min-height: 70px;
+      }
+
+      .brand img {
+        max-width: 170px;
+        height: 42px;
+      }
+
+      .back-link {
+        font-size: 13px;
+      }
+
       .legal-page {
-        padding: 120px 0 70px;
+        padding: 35px 12px 55px;
       }
 
-      .legal-content {
-        padding: 30px 24px;
+      .legal-container {
+        padding: 34px 24px;
+        border-radius: 10px;
       }
 
-      .legal-content h2 {
-        font-size: 21px;
+      h1 {
+        font-size: 34px;
+      }
+
+      .legal-section {
+        margin-top: 32px;
+      }
+
+      .legal-section h2 {
+        font-size: 20px;
+      }
+
+      .legal-container > p,
+      .legal-section p,
+      .legal-section li {
+        font-size: 15.5px;
+      }
+    }
+
+    @media (max-width: 430px) {
+      .header-inner {
+        gap: 12px;
+      }
+
+      .brand img {
+        max-width: 145px;
+      }
+
+      .back-link {
+        font-size: 12px;
+      }
+
+      .legal-container {
+        padding: 28px 20px;
+      }
+
+      h1 {
+        font-size: 30px;
       }
     }
   </style>
-
 </head>
 
 <body>
 
-  <!-- Navigation -->
-
   <header class="site-header">
-    <div class="container nav-container">
+    <div class="header-inner">
 
-```
-  <a href="index.html" class="brand">
-    <img
-      src="assets/logo-transparent.png"
-      alt="Loyal Trade Management Ltd."
-      class="brand-logo"
-    >
-  </a>
+      <a href="index.html" class="brand" aria-label="Loyal Trade Management Ltd.">
+        <img
+          src="assets/logo-transparent.png"
+          alt="Loyal Trade Management Ltd."
+        >
+      </a>
 
-  <a href="index.html" class="nav-button">
-    Back to Website
-  </a>
+      <a href="index.html" class="back-link">
+        ← Back to Website
+      </a>
 
-</div>
-```
-
+    </div>
   </header>
 
-  <main>
 
-```
-<section class="legal-page">
+  <main class="legal-page">
 
-  <div class="container">
+    <article class="legal-container">
 
-    <div class="legal-header">
-      <p class="section-label">LEGAL INFORMATION</p>
+      <p class="legal-label">Legal Information</p>
 
       <h1>Privacy Policy</h1>
 
-      <p class="legal-date">
+      <p class="effective-date">
         Effective Date: 1 September 2026
       </p>
-    </div>
-
-    <article class="legal-content">
 
       <p>
-        Loyal Trade Management Ltd. ("Loyal Trade Management,"
-        "we," "us," or "our") respects your privacy and is committed
-        to handling personal information responsibly.
+        Loyal Trade Management Ltd. ("Loyal Trade Management," "we," "us,"
+        or "our") respects your privacy and is committed to handling personal
+        information responsibly.
       </p>
 
       <p>
-        This Privacy Policy explains how we may collect, use, store,
-        and protect information when you visit our website, contact us,
-        apply for employment opportunities, or use our services.
+        This Privacy Policy explains how we may collect, use, store, and
+        protect information when you visit our website, contact us, apply
+        for employment opportunities, or use our services.
       </p>
 
-      <h2>1. Information We Collect</h2>
 
-      <p>
-        Depending on how you interact with us, we may collect information
-        that you voluntarily provide, including:
-      </p>
+      <section class="legal-section">
+        <h2>1. Information We Collect</h2>
 
-      <ul>
-        <li>Name</li>
-        <li>Email address</li>
-        <li>Phone number</li>
-        <li>Company or organization name</li>
-        <li>Job title or professional information</li>
-        <li>Recruitment or employment-related information</li>
-        <li>Information submitted through contact forms, applications, or inquiries</li>
-      </ul>
+        <p>
+          Depending on how you interact with us, we may collect information
+          that you voluntarily provide, including:
+        </p>
 
-      <p>
-        We may also automatically collect limited technical information
-        when you use our website, including:
-      </p>
+        <ul>
+          <li>Name</li>
+          <li>Email address</li>
+          <li>Phone number</li>
+          <li>Company or organization name</li>
+          <li>Job title or professional information</li>
+          <li>Recruitment or employment-related information</li>
+          <li>Information submitted through contact forms, applications, or inquiries</li>
+        </ul>
 
-      <ul>
-        <li>IP address</li>
-        <li>Browser type and version</li>
-        <li>Device and operating system information</li>
-        <li>Website usage information</li>
-        <li>Cookies and similar technologies</li>
-      </ul>
+        <p>
+          We may also automatically collect limited technical information
+          when you use our website, including:
+        </p>
 
-      <h2>2. How We Use Your Information</h2>
+        <ul>
+          <li>IP address</li>
+          <li>Browser type and version</li>
+          <li>Device and operating system information</li>
+          <li>Website usage information</li>
+          <li>Cookies and similar technologies</li>
+        </ul>
+      </section>
 
-      <p>We may use your information to:</p>
 
-      <ul>
-        <li>Respond to inquiries and requests</li>
-        <li>Provide services and customer support</li>
-        <li>Support recruitment and employment-related activities</li>
-        <li>Communicate with clients, candidates, partners, and business contacts</li>
-        <li>Improve our website, services, and user experience</li>
-        <li>Maintain website security and operational reliability</li>
-        <li>Prevent misuse, fraud, or unauthorized activity</li>
-        <li>Comply with applicable legal, regulatory, and compliance requirements</li>
-      </ul>
+      <section class="legal-section">
+        <h2>2. How We Use Your Information</h2>
 
-      <p>
-        We will use personal information only for legitimate business
-        purposes and in accordance with applicable laws.
-      </p>
+        <p>We may use your information to:</p>
 
-      <h2>3. How We Share Information</h2>
+        <ul>
+          <li>Respond to inquiries and requests</li>
+          <li>Provide services and customer support</li>
+          <li>Support recruitment and employment-related activities</li>
+          <li>Communicate with clients, candidates, partners, and business contacts</li>
+          <li>Improve our website, services, and user experience</li>
+          <li>Maintain website security and operational reliability</li>
+          <li>Prevent misuse, fraud, or unauthorized activity</li>
+          <li>Comply with applicable legal, regulatory, and compliance requirements</li>
+        </ul>
 
-      <p>
-        We do not sell your personal information.
-      </p>
+        <p>
+          We will use personal information only for legitimate business
+          purposes and in accordance with applicable laws.
+        </p>
+      </section>
 
-      <p>
-        We may share information with trusted third-party service
-        providers when reasonably necessary to operate our business
-        and deliver our services. These may include:
-      </p>
 
-      <ul>
-        <li>Website hosting providers</li>
-        <li>Cloud service providers</li>
-        <li>Communication and collaboration platforms</li>
-        <li>Recruitment and HR systems</li>
-        <li>Analytics providers</li>
-        <li>Security and technology service providers</li>
-      </ul>
+      <section class="legal-section">
+        <h2>3. How We Share Information</h2>
 
-      <p>
-        We may also disclose information where required or permitted
-        by applicable law, regulation, court order, or legal process.
-      </p>
+        <p>
+          We do not sell your personal information.
+        </p>
 
-      <p>
-        Where appropriate, we seek to work with service providers that
-        maintain reasonable privacy and security safeguards.
-      </p>
+        <p>
+          We may share information with trusted third-party service providers
+          when reasonably necessary to operate our business and deliver our
+          services. These may include:
+        </p>
 
-      <h2>4. Data Security</h2>
+        <ul>
+          <li>Website hosting providers</li>
+          <li>Cloud service providers</li>
+          <li>Communication and collaboration platforms</li>
+          <li>Recruitment and HR systems</li>
+          <li>Analytics providers</li>
+          <li>Security and technology service providers</li>
+        </ul>
 
-      <p>
-        We implement reasonable administrative, technical, and
-        organizational measures designed to protect personal information
-        against unauthorized access, loss, misuse, alteration, or disclosure.
-      </p>
+        <p>
+          We may also disclose information where required or permitted by
+          applicable law, regulation, court order, or legal process.
+        </p>
 
-      <p>
-        However, no website, online service, or method of electronic
-        transmission can be guaranteed to be completely secure. Users
-        should understand that internet-based communication carries
-        inherent security risks.
-      </p>
+        <p>
+          Where appropriate, we seek to work with service providers that
+          maintain reasonable privacy and security safeguards.
+        </p>
+      </section>
 
-      <h2>5. Cookies and Website Analytics</h2>
 
-      <p>
-        Our website may use cookies and similar technologies to:
-      </p>
+      <section class="legal-section">
+        <h2>4. Data Security</h2>
 
-      <ul>
-        <li>Improve website functionality</li>
-        <li>Understand website usage and performance</li>
-        <li>Enhance user experience</li>
-        <li>Support website security and operational purposes</li>
-      </ul>
+        <p>
+          We implement reasonable administrative, technical, and
+          organizational measures designed to protect personal information
+          against unauthorized access, loss, misuse, alteration, or disclosure.
+        </p>
 
-      <p>
-        You may manage or disable cookies through your browser settings.
-        Please note that certain website features may not function
-        properly if cookies are disabled.
-      </p>
+        <p>
+          However, no website, online service, or method of electronic
+          transmission can be guaranteed to be completely secure. Users
+          should understand that internet-based communication carries
+          inherent security risks.
+        </p>
+      </section>
 
-      <h2>6. Third-Party Websites and Services</h2>
 
-      <p>
-        Our website may contain links to third-party websites,
-        platforms, or services.
-      </p>
+      <section class="legal-section">
+        <h2>5. Cookies and Website Analytics</h2>
 
-      <p>
-        These third parties operate independently from Loyal Trade
-        Management Ltd. We are not responsible for their privacy
-        practices, content, security, or availability.
-      </p>
+        <p>
+          Our website may use cookies and similar technologies to:
+        </p>
 
-      <p>
-        We encourage you to review the privacy policies of any
-        third-party websites before providing personal information.
-      </p>
+        <ul>
+          <li>Improve website functionality</li>
+          <li>Understand website usage and performance</li>
+          <li>Enhance user experience</li>
+          <li>Support website security and operational purposes</li>
+        </ul>
 
-      <h2>7. Your Privacy Rights</h2>
+        <p>
+          You may manage or disable cookies through your browser settings.
+          Please note that certain website features may not function properly
+          if cookies are disabled.
+        </p>
+      </section>
 
-      <p>
-        Depending on applicable laws, you may have certain rights
-        regarding your personal information, including the right to:
-      </p>
 
-      <ul>
-        <li>Request access to personal information we hold about you</li>
-        <li>Request correction of inaccurate or incomplete information</li>
-        <li>Request deletion of information where legally permitted</li>
-        <li>Withdraw consent where processing is based on consent</li>
-        <li>Ask questions about how your information is handled</li>
-      </ul>
+      <section class="legal-section">
+        <h2>6. Third-Party Websites and Services</h2>
 
-      <p>
-        Requests will be reviewed and handled in accordance with
-        applicable laws and legal requirements.
-      </p>
+        <p>
+          Our website may contain links to third-party websites, platforms,
+          or services.
+        </p>
 
-      <h2>8. Data Retention</h2>
+        <p>
+          These third parties operate independently from Loyal Trade
+          Management Ltd. We are not responsible for their privacy practices,
+          content, security, or availability.
+        </p>
 
-      <p>
-        We retain personal information only for as long as reasonably
-        necessary for the purposes for which it was collected, including
-        business, recruitment, contractual, legal, regulatory, security,
-        and record-keeping purposes.
-      </p>
+        <p>
+          We encourage you to review the privacy policies of any third-party
+          websites before providing personal information.
+        </p>
+      </section>
 
-      <p>
-        Retention periods may vary depending on the type of information
-        and the purpose for which it was collected.
-      </p>
 
-      <h2>9. Children's Privacy</h2>
+      <section class="legal-section">
+        <h2>7. Your Privacy Rights</h2>
 
-      <p>
-        Our website and services are not specifically directed toward
-        children.
-      </p>
+        <p>
+          Depending on applicable laws, you may have certain rights regarding
+          your personal information, including the right to:
+        </p>
 
-      <p>
-        We do not knowingly collect personal information from children
-        where such collection is prohibited by applicable law.
-      </p>
+        <ul>
+          <li>Request access to personal information we hold about you</li>
+          <li>Request correction of inaccurate or incomplete information</li>
+          <li>Request deletion of information where legally permitted</li>
+          <li>Withdraw consent where processing is based on consent</li>
+          <li>Ask questions about how your information is handled</li>
+        </ul>
 
-      <h2>10. International Data Transfers</h2>
+        <p>
+          Requests will be reviewed and handled in accordance with applicable
+          laws and legal requirements.
+        </p>
+      </section>
 
-      <p>
-        Depending on the services we provide and the technology platforms
-        used to operate our business, personal information may be processed
-        or stored in countries outside Bangladesh.
-      </p>
 
-      <p>
-        Where applicable, we take reasonable steps to ensure that such
-        processing is carried out in accordance with applicable legal
-        and privacy requirements.
-      </p>
+      <section class="legal-section">
+        <h2>8. Data Retention</h2>
 
-      <h2>11. Changes to This Privacy Policy</h2>
+        <p>
+          We retain personal information only for as long as reasonably
+          necessary for the purposes for which it was collected, including
+          business, recruitment, contractual, legal, regulatory, security,
+          and record-keeping purposes.
+        </p>
 
-      <p>
-        We may update this Privacy Policy from time to time to reflect
-        changes in our services, technology, legal requirements, or
-        business practices.
-      </p>
+        <p>
+          Retention periods may vary depending on the type of information
+          and the purpose for which it was collected.
+        </p>
+      </section>
 
-      <p>
-        Any updated version will be published on this page with a
-        revised effective date.
-      </p>
 
-      <h2>12. Contact Us</h2>
+      <section class="legal-section">
+        <h2>9. Children's Privacy</h2>
 
-      <p>
-        If you have any questions about this Privacy Policy or how
-        we handle personal information, please contact us:
-      </p>
+        <p>
+          Our website and services are not specifically directed toward
+          children.
+        </p>
 
-      <p class="legal-contact">
-        <strong>Loyal Trade Management Ltd.</strong><br>
-        TA-14, Mohakhali<br>
-        Dhaka-1212, Bangladesh
-      </p>
+        <p>
+          We do not knowingly collect personal information from children
+          where such collection is prohibited by applicable law.
+        </p>
+      </section>
 
-      <p class="legal-contact">
-        <strong>Email:</strong>
-        info@loyaltrademanagement.com
-      </p>
 
-      <p class="legal-contact">
-        <strong>Phone:</strong>
-        +880 255040799 / +880 255040800
-      </p>
+      <section class="legal-section">
+        <h2>10. International Data Transfers</h2>
 
-      <div class="legal-footer">
+        <p>
+          Depending on the services we provide and the technology platforms
+          used to operate our business, personal information may be processed
+          or stored in countries outside Bangladesh.
+        </p>
+
+        <p>
+          Where applicable, we take reasonable steps to ensure that such
+          processing is carried out in accordance with applicable legal and
+          privacy requirements.
+        </p>
+      </section>
+
+
+      <section class="legal-section">
+        <h2>11. Changes to This Privacy Policy</h2>
+
+        <p>
+          We may update this Privacy Policy from time to time to reflect
+          changes in our services, technology, legal requirements, or
+          business practices.
+        </p>
+
+        <p>
+          Any updated version will be published on this page with a revised
+          effective date.
+        </p>
+      </section>
+
+
+      <section class="legal-section">
+        <h2>12. Contact Us</h2>
+
+        <p>
+          If you have any questions about this Privacy Policy or how we
+          handle personal information, please contact us:
+        </p>
+
+        <div class="contact-details">
+          <p><strong>Loyal Trade Management Ltd.</strong></p>
+          <p>TA-14, Mohakhali</p>
+          <p>Dhaka-1212, Bangladesh</p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:info@loyaltrademanagement.com">
+              info@loyaltrademanagement.com
+            </a>
+          </p>
+          <p>
+            <strong>Phone:</strong>
+            +880 255040799 / +880 255040800
+          </p>
+        </div>
+      </section>
+
+
+      <footer class="legal-footer">
+
         <p>
           <strong>Last Updated:</strong> 1 September 2026
         </p>
@@ -417,20 +576,19 @@ content="Privacy Policy of Loyal Trade Management Ltd."
         <p>
           © 2019–2026 Loyal Trade Management Ltd. All Rights Reserved.
         </p>
-      </div>
+
+        <div class="bottom-navigation">
+          <a href="index.html">
+            ← Back to Loyal Trade Management
+          </a>
+        </div>
+
+      </footer>
 
     </article>
-
-    <a href="index.html" class="legal-back">
-      ← Back to Loyal Trade Management
-    </a>
-
-  </div>
-
-</section>
-```
 
   </main>
 
 </body>
 </html>
+```
