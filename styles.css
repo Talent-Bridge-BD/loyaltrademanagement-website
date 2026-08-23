@@ -522,3 +522,191 @@ h1 {
 }
 
 }
+
+.brand img {
+
+    height:44px;
+
+}
+
+
+.hero {
+
+    padding:56px 0;
+
+}
+
+
+h1 {
+
+    font-size:36px;
+
+}
+
+
+.hero-content > p:not(.eyebrow) {
+
+    font-size:17px;
+
+}
+
+
+.button-group {
+
+    flex-direction:column;
+
+}
+
+
+.button {
+
+    width:100%;
+
+}
+
+
+.hero-image img {
+
+    height:360px;
+
+}
+
+
+.brand img {
+
+    height:44px;
+
+}
+
+
+.hero {
+
+    padding:56px 0;
+
+}
+
+
+h1 {
+
+    font-size:36px;
+
+}
+
+
+.hero-content > p:not(.eyebrow) {
+
+    font-size:17px;
+
+}
+
+
+.button-group {
+
+    flex-direction:column;
+
+}
+
+
+.button {
+
+    width:100%;
+
+}
+
+
+.hero-image img {
+
+    height:360px;
+
+}
+
+/* ================================
+   ABOUT PAGE LAYOUT
+================================ */
+
+.about-hero {
+    padding: 80px 0;
+}
+
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: center;
+}
+
+
+.image-card img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+
+.light-section {
+    background: #f5f7fa;
+}
+
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    margin-top: 48px;
+}
+
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 32px;
+}
+
+
+.card h3 {
+    color: #102a43;
+    margin-bottom: 16px;
+}
+
+
+.card p {
+    color: #334155;
+}
+
+
+.cta-section {
+    background: #102a43;
+    color: white;
+}
+
+
+.cta-section h2 {
+    color: white;
+}
+
+
+.button-primary {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 14px 26px;
+    background: #0067b8;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 900px) {
+
+.two-column {
+    grid-template-columns: 1fr;
+}
+
+.card-grid {
+    grid-template-columns: 1fr;
+}
+
+}
