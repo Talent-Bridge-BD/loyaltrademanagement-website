@@ -1,0 +1,378 @@
+/* =====================================
+   Loyal Trade Management Ltd.
+   Corporate Website Styles
+   ===================================== */
+
+
+/* Global Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family:
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+
+    color: #1a1a1a;
+
+    background: #ffffff;
+
+    line-height: 1.6;
+
+}
+
+
+img {
+
+    max-width: 100%;
+
+    display: block;
+
+}
+
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+
+.container {
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+}
+
+
+
+/* =====================================
+   Header
+   ===================================== */
+
+
+.site-header {
+
+    background: #ffffff;
+
+    border-bottom: 1px solid #e5e5e5;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+}
+
+
+.nav-container {
+
+    height: 82px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+
+.brand img {
+
+    width: 190px;
+
+    height: auto;
+
+}
+
+
+
+nav {
+
+    display: flex;
+
+    gap: 38px;
+
+    align-items: center;
+
+}
+
+
+
+
+nav a {
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    color: #1f2937;
+
+    letter-spacing: 0.3px;
+
+    transition: 0.3s;
+
+}
+
+
+
+nav a:hover {
+
+    color: #0078d4;
+
+}
+
+
+
+/* =====================================
+   Hero
+   ===================================== */
+
+
+.hero,
+.page-hero {
+
+    padding: 100px 0;
+
+    background:
+    linear-gradient(
+    135deg,
+    #f4f9ff,
+    #ffffff
+    );
+
+}
+
+
+.hero h1,
+.page-hero h1 {
+
+    font-size: 48px;
+
+    font-weight: 700;
+
+    color: #0b1f33;
+
+    margin-bottom: 20px;
+
+}
+
+
+.hero p,
+.page-hero p {
+
+    font-size: 21px;
+
+    color: #555;
+
+    max-width: 700px;
+
+}
+
+
+
+/* =====================================
+   Sections
+   ===================================== */
+
+
+.content-section {
+
+    padding: 80px 0;
+
+}
+
+
+.content-section h2 {
+
+    font-size: 34px;
+
+    color: #0b1f33;
+
+    margin-bottom: 20px;
+
+}
+
+
+.content-section p {
+
+    font-size: 17px;
+
+    color: #555;
+
+    margin-bottom: 18px;
+
+}
+
+
+.content-section ul {
+
+    margin-left: 25px;
+
+}
+
+
+.content-section li {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+/* =====================================
+   Buttons
+   ===================================== */
+
+
+.button {
+
+    display: inline-block;
+
+    margin-top: 25px;
+
+    padding: 14px 30px;
+
+    background: #0078d4;
+
+    color: white;
+
+    border-radius: 6px;
+
+    font-weight: 600;
+
+}
+
+
+.button:hover {
+
+    background: #005ea8;
+
+}
+
+
+
+/* =====================================
+   CTA
+   ===================================== */
+
+
+.cta-section {
+
+    padding: 80px 0;
+
+    background: #0b1f33;
+
+    color: white;
+
+    text-align: center;
+
+}
+
+
+.cta-section h2 {
+
+    font-size: 36px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.cta-section p {
+
+    font-size: 18px;
+
+}
+
+
+
+/* =====================================
+   Footer
+   ===================================== */
+
+
+footer {
+
+    background: #111827;
+
+    color: white;
+
+    padding: 30px 0;
+
+    text-align: center;
+
+}
+
+
+footer p {
+
+    font-size: 14px;
+
+}
+
+
+
+/* =====================================
+   Mobile
+   ===================================== */
+
+
+@media(max-width:768px){
+
+
+.nav-container {
+
+    flex-direction: column;
+
+    height:auto;
+
+    padding:20px 0;
+
+}
+
+
+nav {
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:15px;
+
+}
+
+
+.hero h1,
+.page-hero h1 {
+
+    font-size:36px;
+
+}
+
+
+.hero p,
+.page-hero p {
+
+    font-size:18px;
+
+}
+
+
+}
