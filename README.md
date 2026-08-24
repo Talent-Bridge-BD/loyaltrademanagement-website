@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.loyaltrademanagement.com">
+  <a href="https://loyaltrademanagement.com">
     Corporate Website
   </a>
 </p>
@@ -38,19 +38,19 @@ Loyal Trade Management Ltd. is a workforce and technology solutions company help
 
 We combine workforce expertise, recruitment and talent acquisition capabilities, technology solutions, artificial intelligence, automation, cloud technologies, and digital innovation to create practical solutions for modern organizations.
 
-> **Empowering Organizations Through People, Technology & Performance.**
+> **Empowering Organizations Through People, Technology & Innovation.**
 
 ---
 
-## Our Vision
+## Vision
 
 To become a trusted organization recognized for delivering impactful workforce and technology solutions that create lasting value for organizations and professionals.
 
 ---
 
-## Our Mission
+## Mission
 
-### Empowering Businesses Through People, Technology & Innovation
+### Empowering Organizations Through People, Technology & Innovation
 
 Our mission is to create meaningful business value by connecting:
 
@@ -66,37 +66,42 @@ We help organizations adapt to changing business environments by combining pract
 
 ## Our Services
 
-### Workforce Solutions
-
-Helping organizations find, develop, and connect with the right talent through structured workforce services, recruitment, talent acquisition, and workforce support.
-
 ### Recruitment & Talent Acquisition
 
-Connecting organizations with qualified professionals through structured sourcing, candidate engagement, recruitment, and talent acquisition solutions.
+Helping organizations identify, attract, and connect with qualified professionals through structured sourcing, candidate engagement, recruitment, and talent acquisition solutions.
 
-### International Workforce Solutions
+### Workforce Solutions
 
-Supporting organizations with workforce strategies and skilled talent solutions designed for evolving local and international employment requirements.
+Providing practical workforce support designed to help organizations plan, coordinate, and manage their workforce more effectively.
 
-### HR & Workforce Support
+### Employee Onboarding
 
-Helping businesses improve workforce operations through practical HR processes, workforce support, and technology-enabled approaches.
+Supporting structured onboarding processes that help employees connect with their organization, workplace, processes, and systems.
 
-### Technology Solutions
+### Employer Branding
 
-Supporting modern organizations with cloud, infrastructure, artificial intelligence, automation, data, and digital technology solutions.
+Helping organizations communicate their workplace identity, values, and opportunities to attract and engage the right talent.
+
+### HR & HCM Solutions
+
+Supporting human resources and human capital management processes, employee services, workforce administration, and organizational effectiveness.
+
+### Workforce / OU
+
+Supporting workforce and organizational-unit structures by helping organize people, teams, responsibilities, and operational relationships.
 
 ---
 
 ## Technology & Digital Innovation
 
-Technology is an important part of how we help organizations modernize their operations.
+Technology is an important part of how we help organizations modernize operations and improve performance.
 
 Our technology capabilities include:
 
 - Artificial Intelligence
 - AI-Enabled Workforce Solutions
 - Cloud & Infrastructure
+- Cloud Networking
 - Digital Workplace & HR Technology
 - Data Analytics & Business Intelligence
 - Intelligent Business Applications
@@ -113,28 +118,46 @@ We focus on practical technology solutions that improve efficiency, strengthen c
 
 ### Connecting Talent With Global Opportunities
 
-Talent Bridge BD (TBBD) is a strategic initiative of Loyal Trade Management Ltd. focused on connecting skilled professionals with global employment opportunities.
+Talent Bridge BD (TBBD) is a strategic workforce and technology initiative of Loyal Trade Management Ltd. focused on connecting skilled professionals, employers, and workforce partners through modern talent solutions.
 
-TBBD combines workforce expertise, recruitment capabilities, and technology-enabled processes to create a modern workforce ecosystem connecting:
+TBBD combines:
 
-- Employers
-- Candidates
-- Workforce partners
+- Workforce expertise
+- Recruitment capabilities
 - Talent acquisition
-- HR technology
+- Technology-enabled processes
 - Digital workforce solutions
+- Employer workforce support
+- Candidate engagement
 
-Through technology and workforce innovation, TBBD supports organizations in identifying and engaging talent while helping professionals discover new opportunities.
+TBBD is designed to support a connected workforce ecosystem where organizations can engage talent and professionals can discover opportunities.
 
 ---
 
-## Our Technology Ecosystem
+## TBBD Organizational Unit
+
+The TBBD Organizational Unit (OU) provides a structured framework for organizing workforce relationships, responsibilities, and access within the TBBD ecosystem.
+
+The OU concept supports:
+
+- Workforce structure
+- Organizational relationships
+- Team coordination
+- Operational alignment
+- Workforce responsibilities
+- Digital workforce services
+
+It is designed to help create a more organized and manageable workforce environment.
+
+---
+
+## Technology Ecosystem
 
 Our technology initiatives leverage modern cloud and digital platforms to support secure, scalable, and intelligent business solutions.
 
 Key technology areas include:
 
-**Microsoft Azure · Microsoft 365 · Artificial Intelligence · Automation · Data & Analytics · Cloud Infrastructure · Digital Workplace · HR Technology · Intelligent Business Applications**
+**Microsoft Azure · Microsoft 365 · Artificial Intelligence · Automation · Data & Analytics · Cloud Infrastructure · Cloud Networking · Digital Workplace · HR Technology · Intelligent Business Applications**
 
 ---
 
@@ -184,7 +207,7 @@ We combine human expertise with technology and innovation to create practical so
 
 ## Website
 
-🌐 **https://www.loyaltrademanagement.com**
+🌐 **https://loyaltrademanagement.com**
 
 ---
 
@@ -206,8 +229,17 @@ loyaltrademanagement-website/
 ├── README.md
 │
 └── assets/
+    │
     ├── logo-transparent.png
     ├── Hero-image.jpeg
     ├── AI-Enabled Workforce Solutions.jpeg
     ├── Cloud & Infrastructure.jpeg
-    └── TBBD.jpeg
+    ├── TBBD.jpeg
+    │
+    ├── technology/
+    │   ├── ai.jpg
+    │   └── networking.png
+    │
+    └── tbbd/
+        ├── tbbd.jpg
+        └── ou.png
