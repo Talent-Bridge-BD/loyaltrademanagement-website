@@ -17,15 +17,15 @@
 </p>
 
 <p align="center">
-  <a href="https://loyaltrademanagement.com">
+  <a href="https://www.loyaltrademanagement.com">
     Corporate Website
   </a>
 </p>
 
 <p align="center">
   <img
-    src="assets/Hero-image.jpeg"
-    alt="Loyal Trade Management Ltd. — Empowering Organizations Through People, Technology & Innovation"
+    src="assets/home/home-banner.jpg"
+    alt="Loyal Trade Management Ltd. — Empowering Organizations Through People, Technology & Performance"
     width="100%"
   >
 </p>
@@ -38,19 +38,19 @@ Loyal Trade Management Ltd. is a workforce and technology solutions company help
 
 We combine workforce expertise, recruitment and talent acquisition capabilities, technology solutions, artificial intelligence, automation, cloud technologies, and digital innovation to create practical solutions for modern organizations.
 
-> **Empowering Organizations Through People, Technology & Innovation.**
+> **Empowering Organizations Through People, Technology & Performance.**
 
 ---
 
-## Vision
+## Our Vision
 
 To become a trusted organization recognized for delivering impactful workforce and technology solutions that create lasting value for organizations and professionals.
 
 ---
 
-## Mission
+## Our Mission
 
-### Empowering Organizations Through People, Technology & Innovation
+### Empowering Businesses Through People, Technology & Innovation
 
 Our mission is to create meaningful business value by connecting:
 
@@ -66,42 +66,45 @@ We help organizations adapt to changing business environments by combining pract
 
 ## Our Services
 
-### Recruitment & Talent Acquisition
-
-Helping organizations identify, attract, and connect with qualified professionals through structured sourcing, candidate engagement, recruitment, and talent acquisition solutions.
-
 ### Workforce Solutions
 
-Providing practical workforce support designed to help organizations plan, coordinate, and manage their workforce more effectively.
+Helping organizations find, develop, and connect with the right talent through structured workforce services, recruitment, talent acquisition, and workforce support.
+
+### Recruitment & Talent Acquisition
+
+Connecting organizations with qualified professionals through structured sourcing, candidate engagement, recruitment, and talent acquisition solutions.
+
+### International Workforce Solutions
+
+Supporting organizations with workforce strategies and skilled talent solutions designed for evolving local and international employment requirements.
 
 ### Employee Onboarding
 
-Supporting structured onboarding processes that help employees connect with their organization, workplace, processes, and systems.
+Supporting organizations with structured onboarding processes that help employees transition effectively into their roles, teams, systems, and workplace environments.
 
 ### Employer Branding
 
-Helping organizations communicate their workplace identity, values, and opportunities to attract and engage the right talent.
+Helping organizations communicate their workplace identity, values, culture, and opportunities to attract and engage suitable talent.
 
 ### HR & HCM Solutions
 
-Supporting human resources and human capital management processes, employee services, workforce administration, and organizational effectiveness.
+Supporting organizations with practical HR processes, human capital management, employee services, workforce administration, and technology-enabled workforce solutions.
 
 ### Workforce / OU
 
-Supporting workforce and organizational-unit structures by helping organize people, teams, responsibilities, and operational relationships.
+Supporting workforce and organizational-unit structures that help organize people, teams, responsibilities, access, and operational relationships.
 
 ---
 
 ## Technology & Digital Innovation
 
-Technology is an important part of how we help organizations modernize operations and improve performance.
+Technology is an important part of how we help organizations modernize their operations.
 
 Our technology capabilities include:
 
 - Artificial Intelligence
 - AI-Enabled Workforce Solutions
 - Cloud & Infrastructure
-- Cloud Networking
 - Digital Workplace & HR Technology
 - Data Analytics & Business Intelligence
 - Intelligent Business Applications
@@ -109,6 +112,7 @@ Our technology capabilities include:
 - Microsoft Azure
 - Microsoft 365
 - Digital Transformation
+- Networking & Secure Connectivity
 
 We focus on practical technology solutions that improve efficiency, strengthen collaboration, support better decision-making, and enable sustainable business growth.
 
@@ -118,46 +122,28 @@ We focus on practical technology solutions that improve efficiency, strengthen c
 
 ### Connecting Talent With Global Opportunities
 
-Talent Bridge BD (TBBD) is a strategic workforce and technology initiative of Loyal Trade Management Ltd. focused on connecting skilled professionals, employers, and workforce partners through modern talent solutions.
+Talent Bridge BD (TBBD) is a strategic initiative of Loyal Trade Management Ltd. focused on connecting skilled professionals with global employment opportunities.
 
-TBBD combines:
+TBBD combines workforce expertise, recruitment capabilities, and technology-enabled processes to create a modern workforce ecosystem connecting:
 
-- Workforce expertise
-- Recruitment capabilities
+- Employers
+- Candidates
+- Workforce partners
 - Talent acquisition
-- Technology-enabled processes
+- HR technology
 - Digital workforce solutions
-- Employer workforce support
-- Candidate engagement
 
-TBBD is designed to support a connected workforce ecosystem where organizations can engage talent and professionals can discover opportunities.
+Through technology and workforce innovation, TBBD supports organizations in identifying and engaging talent while helping professionals discover new opportunities.
 
 ---
 
-## TBBD Organizational Unit
-
-The TBBD Organizational Unit (OU) provides a structured framework for organizing workforce relationships, responsibilities, and access within the TBBD ecosystem.
-
-The OU concept supports:
-
-- Workforce structure
-- Organizational relationships
-- Team coordination
-- Operational alignment
-- Workforce responsibilities
-- Digital workforce services
-
-It is designed to help create a more organized and manageable workforce environment.
-
----
-
-## Technology Ecosystem
+## Our Technology Ecosystem
 
 Our technology initiatives leverage modern cloud and digital platforms to support secure, scalable, and intelligent business solutions.
 
 Key technology areas include:
 
-**Microsoft Azure · Microsoft 365 · Artificial Intelligence · Automation · Data & Analytics · Cloud Infrastructure · Cloud Networking · Digital Workplace · HR Technology · Intelligent Business Applications**
+**Microsoft Azure · Microsoft 365 · Artificial Intelligence · Automation · Data & Analytics · Cloud Infrastructure · Digital Workplace · HR Technology · Intelligent Business Applications · Networking**
 
 ---
 
@@ -207,7 +193,7 @@ We combine human expertise with technology and innovation to create practical so
 
 ## Website
 
-🌐 **https://loyaltrademanagement.com**
+🌐 **https://www.loyaltrademanagement.com**
 
 ---
 
@@ -231,10 +217,12 @@ loyaltrademanagement-website/
 └── assets/
     │
     ├── logo-transparent.png
-    ├── Hero-image.jpeg
-    ├── AI-Enabled Workforce Solutions.jpeg
-    ├── Cloud & Infrastructure.jpeg
-    ├── TBBD.jpeg
+    │
+    ├── home/
+    │   └── home-banner.jpg
+    │
+    ├── services/
+    │   └── services-banner.jpg
     │
     ├── technology/
     │   ├── ai.jpg
