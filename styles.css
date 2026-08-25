@@ -734,6 +734,8 @@ p:last-child {
             #f3f8fd 0%,
             #ffffff 70%
         );
+}
+
 .about-banner {
 
     min-height: 430px;
@@ -751,7 +753,7 @@ p:last-child {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}}
+}
 
 .page-hero .container {
     position: relative;
