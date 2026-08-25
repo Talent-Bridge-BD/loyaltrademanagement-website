@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://loyaltrademanagement.com/sitemap.xml
