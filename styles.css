@@ -662,6 +662,20 @@ li {
 
 
 /* =========================================================
+   AI SECTION — TECHNOLOGY PAGE
+   Give content slightly more visual weight than the image.
+========================================================= */
+
+.two-column:has(.image-card img[src*="ai.jpeg"]) {
+    grid-template-columns: 55fr 45fr;
+    gap: 55px;
+}
+
+.two-column:has(.image-card img[src*="ai.jpeg"]) .image-card img {
+    height: 380px;
+}
+
+/* =========================================================
    TECHNOLOGY PAGE
 ========================================================= */
 
