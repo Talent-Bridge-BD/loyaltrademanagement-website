@@ -751,7 +751,7 @@ p:last-child {
         url("assets/about/about-banner.jpeg");
 
     background-size: cover;
-    background-position: center;
+    background-position: center 35%;
     background-repeat: no-repeat;
 }
 
