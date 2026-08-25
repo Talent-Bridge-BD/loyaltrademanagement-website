@@ -982,8 +982,9 @@ li {
 
 .two-column:has(.image-card img[src*="ai.jpeg"]) .image-card img {
     width: 100%;
-    height: 380px;
-    object-fit: cover;
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
     object-position: center;
     display: block;
 }
