@@ -585,7 +585,7 @@ p:last-child {
         url("assets/tbbd/tbbd-banner.jpeg");
 
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
 
     overflow: hidden;
