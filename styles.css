@@ -786,7 +786,7 @@ p:last-child {
 
     background-size: cover;
 
-    background-position: center;
+    background-position: center 45%;
 
     background-repeat: no-repeat;
 }
@@ -809,7 +809,7 @@ p:last-child {
         url("assets/services/services-banner.jpg");
 
     background-size: cover;
-    background-position: center;
+    background-position: center 45%;
     background-repeat: no-repeat;
 }
 
@@ -1378,7 +1378,7 @@ textarea:focus {
 
     .services-banner {
         min-height: 380px;
-        background-position: center;
+        background-position: center 45%;
     }
 
 
@@ -1481,7 +1481,7 @@ textarea:focus {
 
     .services-banner {
         min-height: 350px;
-        background-position: center;
+        background-position: center 45%;
     }
 
 
