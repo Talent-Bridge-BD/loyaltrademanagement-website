@@ -1577,3 +1577,29 @@ textarea:focus {
     }
 
 }
+
+
+/* =========================================================
+   TECHNOLOGY HERO FINAL ALIGNMENT OVERRIDE
+========================================================= */
+
+.technology-hero {
+    height: 520px;
+    min-height: 520px;
+}
+
+.technology-hero .hero-container {
+    width: min(1180px, calc(100% - 48px));
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.technology-hero .hero-content {
+    max-width: 720px;
+    margin-left: 0;
+}
+
+.technology-hero .hero-content h1 {
+    max-width: 720px;
+}
+
