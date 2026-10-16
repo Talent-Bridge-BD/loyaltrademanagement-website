@@ -2964,3 +2964,23 @@ textarea:focus {
         gap: 12px;
     }
 }
+
+/* Center only the Workplace Hub pathway card content. */
+.tbbd-page .tbbd-pathway-centered {
+    text-align: center;
+    align-items: center;
+}
+
+.tbbd-page .tbbd-pathway-centered > .tbbd-role-label {
+    align-self: center;
+}
+
+.tbbd-page .tbbd-pathway-centered > h3,
+.tbbd-page .tbbd-pathway-centered > p:not(.tbbd-role-label) {
+    width: 100%;
+    text-align: center;
+}
+
+.tbbd-page .tbbd-pathway-centered > .tbbd-card-action {
+    align-self: center;
+}
