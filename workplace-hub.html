@@ -29,7 +29,7 @@
     }
 
     .topbar {
-      padding: 12px 24px;
+      padding: 14px 24px;
       background: #082342;
       color: #fff;
       border-bottom: 4px solid #0067B8;
@@ -43,33 +43,40 @@
     .brand-row {
       display: flex;
       align-items: center;
-      gap: 14px;
+      gap: 16px;
     }
+
     .brand-logo {
       display: block;
-      width: 44px;
-      height: 44px;
+      width: 58px;
+      height: 58px;
       object-fit: contain;
       flex: 0 0 auto;
-      border-radius: 8px;
-      background: #fff;
-      padding: 4px;
+      border-radius: 0;
+      background: transparent;
+      padding: 0;
     }
+
     .brand-copy {
       display: flex;
       flex-direction: column;
-      gap: 3px;
+      justify-content: center;
+      gap: 4px;
+      min-width: 0;
     }
+
     .brand {
-      font-size: 15px;
-      line-height: 1.4;
-      letter-spacing: .1em;
+      font-size: 17px;
+      line-height: 1.25;
+      letter-spacing: .12em;
       font-weight: 800;
     }
+
     .brand-subtitle {
       color: #d7e7f7;
-      font-size: 13px;
-      line-height: 1.5;
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: 500;
     }
 
     main {
@@ -200,6 +207,9 @@
       .workspace-grid { grid-template-columns: 1fr; }
       .workspace { min-height: auto; padding: 24px; }
       .topbar-inner, main, footer { width: min(100% - 28px, 1080px); }
+      .brand-logo { width: 50px; height: 50px; }
+      .brand { font-size: 15px; }
+      .brand-subtitle { font-size: 13px; }
     }
   </style>
 </head>
