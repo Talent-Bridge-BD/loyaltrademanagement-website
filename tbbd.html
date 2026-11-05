@@ -1,84 +1,401 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Talent Bridge BD (TBBD) | Connecting Talent with Global Opportunities</title>
 
     <meta name="description"
-          content="Talent Bridge BD (TBBD) is a modern workforce and talent solutions initiative of Loyal Trade Management Ltd. connecting talent, employers, workforce partners, and opportunities through trusted relationships and technology-enabled workforce experiences.">
+          content="Talent Bridge BD (TBBD), a workforce and talent solutions initiative of Loyal Trade Management Ltd., connects candidates, employers, and workforce partners through trusted opportunities and technology-enabled services.">
 
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
+    <meta name="theme-color" content="#142b49">
 
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
           rel="stylesheet">
 
-    <link rel="stylesheet"
-          href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css">
 
+    <!-- TBBD PAGE ENHANCEMENTS
+         Scoped to this page. Existing hero banner is intentionally untouched. -->
+    <style>
+
+        .tbbd-page {
+            --tbbd-navy: #142b49;
+            --tbbd-blue: #1d456d;
+            --tbbd-teal: #168b91;
+            --tbbd-light: #f3f7fa;
+            --tbbd-text: #26384b;
+            --tbbd-muted: #637487;
+        }
+
+        .tbbd-page .tbbd-intro-section {
+            padding-top: 85px;
+            padding-bottom: 85px;
+        }
+
+        .tbbd-page .tbbd-intro-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .tbbd-page .section-label {
+            color: var(--tbbd-teal);
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+        }
+
+        .tbbd-page .tbbd-intro-section h2,
+        .tbbd-page .tbbd-pathways-section h2,
+        .tbbd-page .tbbd-services-section h2 {
+            color: var(--tbbd-navy);
+            font-size: clamp(27px, 3vw, 38px);
+            line-height: 1.3;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .tbbd-page .tbbd-intro-section p:not(.section-label) {
+            color: var(--tbbd-muted);
+            line-height: 1.9;
+            font-size: 15px;
+        }
+
+        .tbbd-page .section-intro {
+            max-width: 760px;
+            color: var(--tbbd-muted);
+            line-height: 1.8;
+            margin-bottom: 36px;
+        }
+
+        .tbbd-page .tbbd-pathways-section {
+            padding-top: 85px;
+            padding-bottom: 90px;
+            background: #f2f6fa;
+        }
+
+        .tbbd-page .tbbd-pathways-section > .container,
+        .tbbd-page .tbbd-services-section > .container,
+        .tbbd-page .tbbd-vision-section > .container {
+            text-align: center;
+        }
+
+        .tbbd-page .tbbd-pathways-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 25px;
+            margin-top: 42px;
+            align-items: stretch;
+        }
+
+        .tbbd-page .tbbd-pathway-card {
+            background: #ffffff;
+            border: 1px solid #e5ebf1;
+            border-radius: 15px;
+            padding: 34px 28px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            box-shadow: 0 8px 28px rgba(20, 43, 73, 0.055);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .tbbd-page .tbbd-pathway-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(20, 43, 73, 0.11);
+        }
+
+        .tbbd-page .tbbd-pathway-icon {
+            width: 58px;
+            height: 58px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 14px;
+            background: #edf5fa;
+            font-size: 27px;
+            margin-bottom: 22px;
+        }
+
+        .tbbd-page .tbbd-role-label {
+            color: var(--tbbd-teal);
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+            margin-bottom: 12px;
+        }
+
+        .tbbd-page .tbbd-pathway-card h3 {
+            color: var(--tbbd-navy);
+            font-size: 20px;
+            line-height: 1.45;
+            margin-bottom: 14px;
+        }
+
+        .tbbd-page .tbbd-pathway-card > p:not(.tbbd-role-label) {
+            color: var(--tbbd-muted);
+            font-size: 14px;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        .tbbd-page .tbbd-card-action {
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            width: 100%;
+            margin-top: auto;
+            padding: 13px 17px;
+            border-radius: 7px;
+            background: var(--tbbd-navy);
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: background 0.2s ease;
+        }
+
+        .tbbd-page .tbbd-card-action:hover {
+            background: var(--tbbd-teal);
+            color: #ffffff;
+        }
+
+        .tbbd-page .tbbd-pathway-card .tbbd-card-action span {
+            font-size: 19px;
+        }
+
+        .tbbd-page .tbbd-pathway-hub {
+            border-top: 4px solid var(--tbbd-teal);
+        }
+
+        .tbbd-page .tbbd-pathway-hub .tbbd-pathway-icon {
+            background: #e8f5f4;
+        }
+
+        .tbbd-page .tbbd-services-section {
+            padding-top: 85px;
+            padding-bottom: 90px;
+        }
+
+        .tbbd-page .tbbd-service-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .tbbd-page .tbbd-service-card {
+            text-align: left;
+            background: #ffffff;
+            border: 1px solid #e5ebf1;
+            border-radius: 12px;
+            padding: 27px 23px;
+            box-shadow: 0 6px 20px rgba(20, 43, 73, 0.045);
+        }
+
+        .tbbd-page .tbbd-service-icon {
+            font-size: 27px;
+            margin-bottom: 18px;
+        }
+
+        .tbbd-page .tbbd-service-card h3 {
+            color: var(--tbbd-navy);
+            font-size: 17px;
+            line-height: 1.45;
+            margin-bottom: 12px;
+        }
+
+        .tbbd-page .tbbd-service-card p {
+            color: var(--tbbd-muted);
+            font-size: 13px;
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        .tbbd-page .tbbd-portal-section {
+            align-items: center;
+            gap: 65px;
+            padding-top: 65px;
+            padding-bottom: 65px;
+        }
+
+        .tbbd-page .tbbd-portal-section h2 {
+            color: var(--tbbd-navy);
+            font-size: clamp(25px, 2.8vw, 34px);
+            line-height: 1.4;
+            font-weight: 800;
+        }
+
+        .tbbd-page .tbbd-portal-copy {
+            padding: 28px;
+            border-left: 3px solid var(--tbbd-teal);
+            background: #f5f8fb;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .tbbd-page .tbbd-portal-copy p {
+            color: var(--tbbd-muted);
+            font-size: 14px;
+            line-height: 1.9;
+            margin-bottom: 12px;
+        }
+
+        .tbbd-page .tbbd-portal-copy p:last-child {
+            margin-bottom: 0;
+        }
+
+        .tbbd-page .tbbd-vision-section {
+            padding-top: 85px;
+            padding-bottom: 90px;
+            background: #f2f6fa;
+        }
+
+        .tbbd-page .tbbd-vision-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+            text-align: left;
+        }
+
+        .tbbd-page .tbbd-vision-card {
+            background: #ffffff;
+            border: 1px solid #e4ebf1;
+            border-radius: 14px;
+            padding: 35px;
+            box-shadow: 0 7px 25px rgba(20, 43, 73, 0.05);
+        }
+
+        .tbbd-page .tbbd-vision-kicker {
+            display: inline-block;
+            color: var(--tbbd-teal);
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+        }
+
+        .tbbd-page .tbbd-vision-card h3 {
+            color: var(--tbbd-navy);
+            font-size: 21px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .tbbd-page .tbbd-vision-card p {
+            color: var(--tbbd-muted);
+            font-size: 14px;
+            line-height: 1.9;
+            margin: 0;
+        }
+
+        .tbbd-page .tbbd-site-footer {
+            background: var(--tbbd-navy);
+            color: #ffffff;
+        }
+
+        .tbbd-page .tbbd-footer-description {
+            max-width: 560px;
+            line-height: 1.8;
+            color: #d0dbe7;
+        }
+
+        .tbbd-page .tbbd-footer-nav a {
+            transition: color 0.2s ease;
+        }
+
+        .tbbd-page .tbbd-footer-nav a:hover {
+            color: #64d0ce;
+        }
+
+        @media (max-width: 900px) {
+
+            .tbbd-page .tbbd-service-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .tbbd-page .tbbd-pathways-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .tbbd-page .tbbd-pathway-hub {
+                grid-column: 1 / -1;
+            }
+
+        }
+
+        @media (max-width: 600px) {
+
+            .tbbd-page .tbbd-intro-section,
+            .tbbd-page .tbbd-pathways-section,
+            .tbbd-page .tbbd-services-section,
+            .tbbd-page .tbbd-vision-section {
+                padding-top: 55px;
+                padding-bottom: 55px;
+            }
+
+            .tbbd-page .tbbd-pathways-grid,
+            .tbbd-page .tbbd-service-grid,
+            .tbbd-page .tbbd-vision-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .tbbd-page .tbbd-pathway-hub {
+                grid-column: auto;
+            }
+
+            .tbbd-page .tbbd-pathway-card,
+            .tbbd-page .tbbd-vision-card {
+                padding: 25px 22px;
+            }
+
+            .tbbd-page .tbbd-portal-section {
+                gap: 22px;
+                padding-top: 45px;
+                padding-bottom: 45px;
+            }
+
+            .tbbd-page .tbbd-portal-copy {
+                padding: 22px;
+            }
+
+        }
+
+    </style>
+
+</head>
 
 <body class="tbbd-page">
 
-
-<!-- =========================================================
-     HEADER
-========================================================= -->
+<!-- HEADER -->
 
 <header class="site-header">
 
     <div class="container nav-container">
 
-        <a href="index.html"
-           class="brand">
-
+        <a href="index.html" class="brand">
             <img class="brand-logo"
                  src="assets/logo-transparent.png"
                  alt="Loyal Trade Management Ltd.">
-
         </a>
 
+        <nav class="main-nav" aria-label="Main navigation">
 
-        <nav class="main-nav"
-             aria-label="Main navigation">
-
-            <a href="index.html">
-                Home
-            </a>
-
-            <a href="about.html">
-                About
-            </a>
-
-            <a href="services.html">
-                Services
-            </a>
-
-            <a href="technology.html">
-                Technology
-            </a>
-
-            <a href="tbbd.html"
-               aria-current="page">
-                TBBD
-            </a>
-
-            <a href="careers.html">
-                Careers
-            </a>
-
-            <a href="contact.html">
-                Contact
-            </a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="technology.html">Technology</a>
+            <a href="tbbd.html" aria-current="page">TBBD</a>
+            <a href="careers.html">Careers</a>
+            <a href="contact.html">Contact</a>
 
         </nav>
 
@@ -86,14 +403,11 @@
 
 </header>
 
-
-
 <main>
-
 
 <!-- =========================================================
      TBBD HERO
-     Existing banner preserved — CTA links removed
+     PRESERVED EXACTLY — DO NOT CHANGE THE BANNER
 ========================================================= -->
 
 <section class="tbbd-hero">
@@ -108,11 +422,9 @@
                     TALENT BRIDGE BD · TBBD
                 </p>
 
-
                 <h1>
                     Discover Workforce Opportunities. Connect with the TBBD Ecosystem.
                 </h1>
-
 
                 <p>
                     Connecting talent, employers, and workforce partners
@@ -127,13 +439,18 @@
     </div>
 
 </section>
+
 <!-- =========================================================
-     TBBD INTRODUCTION
+     INTRODUCTION
 ========================================================= -->
 
 <section class="section tbbd-intro-section">
-    <div class="container">
-        <p class="section-label">WELCOME TO TALENT BRIDGE BD</p>
+
+    <div class="container tbbd-intro-inner">
+
+        <p class="section-label">
+            WELCOME TO TALENT BRIDGE BD
+        </p>
 
         <h2>
             Connecting Talent With Global Opportunities
@@ -152,18 +469,22 @@
             services, TBBD brings the right experience together in one
             connected digital environment.
         </p>
-    </div>
-</section>
 
+    </div>
+
+</section>
 
 <!-- =========================================================
      PRIMARY USER PATHWAYS
 ========================================================= -->
 
 <section class="section light-section tbbd-pathways-section">
+
     <div class="container">
 
-        <p class="section-label">CHOOSE YOUR TBBD EXPERIENCE</p>
+        <p class="section-label">
+            CHOOSE YOUR TBBD EXPERIENCE
+        </p>
 
         <h2>
             Start With the Experience That Fits You
@@ -176,10 +497,17 @@
 
         <div class="cards tbbd-pathways-grid">
 
-            <article class="card tbbd-pathway-card tbbd-pathway-candidate">
-                <div class="tbbd-pathway-icon" aria-hidden="true">👤</div>
+            <!-- CANDIDATE -->
 
-                <p class="tbbd-role-label">CANDIDATE PORTAL</p>
+            <article class="card tbbd-pathway-card tbbd-pathway-candidate">
+
+                <div class="tbbd-pathway-icon" aria-hidden="true">
+                    👤
+                </div>
+
+                <p class="tbbd-role-label">
+                    CANDIDATE PORTAL
+                </p>
 
                 <h3>
                     I'm looking for an opportunity
@@ -190,19 +518,24 @@
                     apply for positions, and follow your recruitment journey.
                 </p>
 
-                <a
-                    href="https://loyaltrademanagement.com/workplace-hub.html"
-                    class="tbbd-card-action"
-                >
+                <a href="https://portal.talentbridgebd.com/"
+                   class="tbbd-card-action">
                     Explore Opportunities <span>→</span>
                 </a>
+
             </article>
 
+            <!-- EMPLOYER -->
 
             <article class="card tbbd-pathway-card tbbd-pathway-employer">
-                <div class="tbbd-pathway-icon" aria-hidden="true">🏢</div>
 
-                <p class="tbbd-role-label">EMPLOYER PORTAL</p>
+                <div class="tbbd-pathway-icon" aria-hidden="true">
+                    🏢
+                </div>
+
+                <p class="tbbd-role-label">
+                    EMPLOYER PORTAL
+                </p>
 
                 <h3>
                     I'm looking for talent
@@ -213,19 +546,24 @@
                     and move recruitment activities forward.
                 </p>
 
-                <a
-                    href="https://loyaltrademanagement.com/workplace-hub.html"
-                    class="tbbd-card-action"
-                >
+                <a href="https://portal.talentbridgebd.com/"
+                   class="tbbd-card-action">
                     Request Talent <span>→</span>
                 </a>
+
             </article>
 
+            <!-- WORKPLACE HUB -->
 
-            <article class="card tbbd-pathway-card tbbd-pathway-hub tbbd-pathway-centered">
-                <div class="tbbd-pathway-icon" aria-hidden="true">🔐</div>
+            <article class="card tbbd-pathway-card tbbd-pathway-hub">
 
-                <p class="tbbd-role-label">WORKPLACE HUB</p>
+                <div class="tbbd-pathway-icon" aria-hidden="true">
+                    🔐
+                </div>
+
+                <p class="tbbd-role-label">
+                    WORKPLACE HUB
+                </p>
 
                 <h3>
                     Administrator &amp; HR Manager Operations
@@ -236,27 +574,30 @@
                     role-based access and permission controls.
                 </p>
 
-                <a
-                    href="https://loyaltrademanagement.com/workplace-hub.html"
-                    class="tbbd-card-action"
-                >
+                <a href="https://portal.talentbridgebd.com/"
+                   class="tbbd-card-action">
                     Sign In with Microsoft <span>→</span>
                 </a>
+
             </article>
 
         </div>
-    </div>
-</section>
 
+    </div>
+
+</section>
 
 <!-- =========================================================
      WORKFORCE SERVICES
 ========================================================= -->
 
-<section class="section">
+<section class="section tbbd-services-section">
+
     <div class="container">
 
-        <p class="section-label">WORKFORCE SERVICES</p>
+        <p class="section-label">
+            WORKFORCE SERVICES
+        </p>
 
         <h2>
             Supporting Every Step of the Workforce Journey
@@ -269,61 +610,96 @@
 
         <div class="cards tbbd-service-grid">
 
-            <article class="card">
-                <h3>Talent & Recruitment</h3>
+            <article class="card tbbd-service-card">
+
+                <div class="tbbd-service-icon" aria-hidden="true">🎯</div>
+
+                <h3>
+                    Talent &amp; Recruitment
+                </h3>
+
                 <p>
                     Support candidates and employers throughout sourcing,
                     recruitment, screening, interviews, selection, and
                     onboarding.
                 </p>
+
             </article>
 
-            <article class="card">
-                <h3>Workforce Solutions</h3>
+            <article class="card tbbd-service-card">
+
+                <div class="tbbd-service-icon" aria-hidden="true">🤝</div>
+
+                <h3>
+                    Workforce Solutions
+                </h3>
+
                 <p>
                     Connect organizations with structured workforce services
                     designed around real operational needs.
                 </p>
+
             </article>
 
-            <article class="card">
-                <h3>International Opportunities</h3>
+            <article class="card tbbd-service-card">
+
+                <div class="tbbd-service-icon" aria-hidden="true">🌍</div>
+
+                <h3>
+                    International Opportunities
+                </h3>
+
                 <p>
                     Help connect qualified talent with workforce opportunities
                     across markets through organized recruitment processes.
                 </p>
+
             </article>
 
-            <article class="card">
-                <h3>Connected Digital Experience</h3>
+            <article class="card tbbd-service-card">
+
+                <div class="tbbd-service-icon" aria-hidden="true">💻</div>
+
+                <h3>
+                    Connected Digital Experience
+                </h3>
+
                 <p>
                     Bring profiles, opportunities, recruitment activities,
                     workforce processes, and authorized services together
                     through technology.
                 </p>
+
             </article>
 
         </div>
-    </div>
-</section>
 
+    </div>
+
+</section>
 
 <!-- =========================================================
      CANDIDATE PORTAL
 ========================================================= -->
 
 <section class="section light-section">
+
     <div class="container two-column tbbd-portal-section">
 
         <div>
-            <p class="section-label">CANDIDATE PORTAL</p>
+
+            <p class="section-label">
+                CANDIDATE PORTAL
+            </p>
 
             <h2>
                 Discover Opportunities and Open the Door to Your Future
             </h2>
+
         </div>
 
-        <div>
+        <div class="tbbd-portal-copy">
+
             <p>
                 Candidates can create and manage their professional profile,
                 discover relevant opportunities, submit applications, and
@@ -336,29 +712,34 @@
                 candidates connected to their journey.
             </p>
 
-
         </div>
 
     </div>
-</section>
 
+</section>
 
 <!-- =========================================================
      EMPLOYER PORTAL
 ========================================================= -->
 
 <section class="section">
+
     <div class="container two-column tbbd-portal-section">
 
         <div>
-            <p class="section-label">EMPLOYER PORTAL</p>
+
+            <p class="section-label">
+                EMPLOYER PORTAL
+            </p>
 
             <h2>
                 Connect With Talent and Build Your Workforce
             </h2>
+
         </div>
 
-        <div>
+        <div class="tbbd-portal-copy">
+
             <p>
                 Employers can request talent, manage workforce requirements,
                 create and publish opportunities, review applications, and
@@ -371,26 +752,31 @@
                 and workforce deployment.
             </p>
 
-
         </div>
 
     </div>
-</section>
 
+</section>
 
 <!-- =========================================================
      VISION & MISSION
 ========================================================= -->
 
 <section class="section light-section tbbd-vision-section">
+
     <div class="container">
 
-        <p class="section-label">VISION & MISSION</p>
+        <p class="section-label">
+            VISION &amp; MISSION
+        </p>
 
         <div class="cards tbbd-vision-grid">
 
-            <article class="card">
-                <span class="tbbd-vision-kicker">OUR VISION</span>
+            <article class="card tbbd-vision-card">
+
+                <span class="tbbd-vision-kicker">
+                    OUR VISION
+                </span>
 
                 <h3>
                     Connecting People With Opportunities That Move Them Forward
@@ -401,10 +787,14 @@
                     organizations, and opportunities can find meaningful
                     pathways to grow and move forward.
                 </p>
+
             </article>
 
-            <article class="card">
-                <span class="tbbd-vision-kicker">OUR MISSION</span>
+            <article class="card tbbd-vision-card">
+
+                <span class="tbbd-vision-kicker">
+                    OUR MISSION
+                </span>
 
                 <h3>
                     Making Workforce Connections Simpler and More Connected
@@ -415,19 +805,30 @@
                     structured processes, and modern technology to make
                     workforce connections more accessible and effective.
                 </p>
+
             </article>
 
         </div>
+
     </div>
+
 </section>
 
 </main>
 
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
 <footer class="site-footer tbbd-site-footer">
+
     <div class="container">
 
         <div class="tbbd-footer-brand">
-            <p class="tbbd-footer-title">TALENT BRIDGE BD</p>
+
+            <p class="tbbd-footer-title">
+                TALENT BRIDGE BD
+            </p>
 
             <p class="tbbd-footer-tagline">
                 Connecting Talent With Global Opportunities
@@ -438,29 +839,43 @@
                 trusted workforce opportunities, talent solutions, and the
                 TBBD Workplace Hub.
             </p>
+
         </div>
 
         <nav class="tbbd-footer-nav" aria-label="TBBD footer navigation">
-            <a href="https://loyaltrademanagement.com/workplace-hub.html">
+
+            <a href="https://portal.talentbridgebd.com/">
                 Candidate Portal
             </a>
-            <a href="https://loyaltrademanagement.com/workplace-hub.html">
+
+            <a href="https://portal.talentbridgebd.com/">
                 Employer Portal
             </a>
-            <a href="https://loyaltrademanagement.com/workplace-hub.html">
+
+            <a href="https://portal.talentbridgebd.com/">
                 Workplace Hub
             </a>
-            <a href="tbbd.html">About TBBD</a>
-            <a href="contact.html">Contact</a>
+
+            <a href="tbbd.html">
+                About TBBD
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
         </nav>
 
         <div class="footer-bottom">
+
             <p>
                 © 2019–2026 Loyal Trade Management Ltd. All Rights Reserved.
             </p>
+
         </div>
 
     </div>
+
 </footer>
 
 </body>
