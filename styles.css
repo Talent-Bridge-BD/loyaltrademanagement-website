@@ -2984,3 +2984,55 @@ textarea:focus {
 .tbbd-page .tbbd-pathway-centered > .tbbd-card-action {
     align-self: center;
 }
+
+/* =========================================================
+   CORPORATE PAGE BANNERS — CONSISTENT DIMENSIONS
+   TBBD hero intentionally excluded.
+========================================================= */
+
+.hero,
+.technology-hero,
+.about-banner,
+.services-banner,
+.careers-banner,
+.contact-banner {
+    box-sizing: border-box;
+    height: 600px;
+    min-height: 600px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .hero,
+    .technology-hero,
+    .about-banner,
+    .services-banner,
+    .careers-banner,
+    .contact-banner {
+        height: auto;
+        min-height: 480px;
+    }
+
+    .page-hero {
+        box-sizing: border-box;
+        padding: 65px 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .hero,
+    .technology-hero,
+    .about-banner,
+    .services-banner,
+    .careers-banner,
+    .contact-banner {
+        height: auto;
+        min-height: 420px;
+    }
+
+    .page-hero {
+        padding: 55px 0;
+    }
+}
+
